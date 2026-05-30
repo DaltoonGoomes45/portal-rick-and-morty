@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Rick and Morty</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Portal Rick and Morty</h1>
+
+        <p>
+            Projeto desenvolvido com HTML, CSS e JavaScript utilizando
+            consumo de API em tempo real.
+        </p>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <h2>Personagens</h2>
+
+            <p>
+                Explore os personagens do universo Rick and Morty através
+                de dados obtidos diretamente da API pública.
+            </p>
+        </section>
+
+        <section class="search-section">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Pesquisar personagem..."
+            >
+        </section>
+
+        <section id="cardsContainer" class="cards-grid">
+
+        </section>
+
+    </main>
+<div id="modal" class="modal">
+
+    <div class="modal-content">
+
+        <span id="fecharModal" class="close">&times;</span>
+
+        <div id="modalBody"></div>
+
+    </div>
+
+</div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
